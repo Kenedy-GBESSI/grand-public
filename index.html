@@ -8,6 +8,8 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
     rel="stylesheet" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
     rel="stylesheet" />
@@ -83,12 +85,10 @@
         </nav>
         <div class="flex items-center gap-3">
           <a class="store-badge" href="#">
-            <img alt="App Store" class="h-8"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE_jhpjceKF6jHDrcNwg3Ewam-kJPA6LGZP82iwyWkgYaRuG0dXVBjSwPstmHknc-R7BfXVYvHnApdvP6J7_7_99HVADMcus_Tr-wqrx1aRiRZDU9HBrjpRZmL8ss4wwjXjsu9XtGeHIAWiVJNIf6IiyqwWRHFWXq4RKyKL3HCczdk5n6_V1xvhPXm7s1fwqnHEM-gJrbcnhKyCADIGLQkOJR5MMqzHms5Mr3SmD5ecG_ZrjXG8bespETDVfQqtDj4Ldu0XyuE4P7C" />
+            <img alt="App Store" class="h-8" src="imgs/appstore-apple.svg" />
           </a>
           <a class="store-badge" href="#">
-            <img alt="Google Play" class="h-8"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOPRlgNiXt8wbqF9KRFXSrM6ZLYTn30mFwVd__kvnUxkPb7FLvbl3D6GfKK9yCcsjfBk30WAtF_rF-zYRonJ9DPVFcbF4mTcxvDWdW8iWdHc3TNInqJ8ho7c8c63Xa0AIEVd1HTkIzh6nL31kEyti9B0njxBTiUZRyGFccd9EcYr8mxCQFi7hJI6LwrRQgDvHDdqcwhPZ3AAMRbIqhxkqFgpSkTntJ69xFZa2t1M8HB-Ul6wxeC0DEPdlog_KR--SM8q3Vpt5w0KcU" />
+            <img alt="Google Play" class="h-8" src="imgs/appstore-android.svg" />
           </a>
         </div>
       </div>
@@ -132,12 +132,10 @@
               </div>
               <div class="flex flex-wrap gap-4 pt-4">
                 <a class="transition-transform hover:scale-105" href="#">
-                  <img alt="App Store" class="h-14"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6DXSds4oveTvElKy-GAWOKi9cVVRbYEj8Nh-LrQnAQeUeV7594bxh5Okj39haCGomAtzvuOQRULgjICw5dvuVQev2btw6EeTOCbM1JV3DRDPDRpE7qdrSqPGunWf7PvCIctrb7-PvoGn6cVVigEwO_icRxJzk9y-IiQQD87F9xXlHAUt6oR0goFhw-M0-MLoxv75m_baKpbITbNMnnWU2DWjyq6nRvMsVUNEsExKCeon1l-o1u5z9VHbXxIBvbeeDJNr1waSuuHTH" />
+                  <img alt="App Store" class="h-14" src="imgs/appstore-apple.svg" />
                 </a>
                 <a class="transition-transform hover:scale-105" href="#">
-                  <img alt="Google Play" class="h-14"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrZOvRc4pW5D1lKUQwqsbnAPJRIRR9vqBKUZIs411gBV1Ef1QuMoCCk_dJUB3Flrzffi3KSySZ53wYMd7mnVKk8tQDUePNV03fxnGs60C-mNrD11iTdNHiq0VMV-OoEOHm5EdxNYiPbHzZneChV1LrwqgmRjA23E_fhQj-NqqVY9W9N3YpATtb_kpDoZezivL03HKwHbODfZbstGPB1NGEz8D2oS6g53Isw88aKS5EXTrLgPVQL19UZmmTVEi7MckU_v7sadLoVlVF" />
+                  <img alt="Google Play" class="h-14" src="imgs/appstore-android.svg" />
                 </a>
               </div>
             </div>
@@ -486,48 +484,35 @@
               créateurs et d'utilisateurs au Bénin.
             </p>
             <div class="flex gap-4">
-              <a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors"
-                href="#">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path
-                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
-                  </path>
-                </svg>
+
+              <!-- Facebook -->
+              <a href="#"
+                class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors">
+                <i class="fab fa-facebook-f text-white text-lg"></i>
               </a>
-              <a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors"
-                href="#">
-                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                  <path
-                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.045 4.126H5.078z">
-                  </path>
-                </svg>
+
+              <!-- X (Twitter) -->
+              <a href="#"
+                class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors">
+                <i class="fab fa-x-twitter text-white text-lg"></i>
               </a>
-              <a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors"
-                href="#">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path
-                    d="M12.525.02c1.31-.032 2.617-.02 3.912.03 1.461.066 3.012.19 4.415.75 2.245.896 3.945 2.595 4.84 4.84.507 1.27.674 2.63.743 4.137.068 1.49.069 2.97.01 4.46-.067 1.464-.19 3.01-.75 4.413-.895 2.245-2.595 3.945-4.84 4.84-1.27.506-2.63.673-4.137.742-1.49.07-2.97.07-4.46.01-1.464-.067-3.01-.19-4.413-.75-2.245-.895-3.945-2.595-4.84-4.84-.506-1.27-.673-2.63-.742-4.137-.07-1.49-.07-2.97-.01-4.46.067-1.464.19-3.01.75-4.413.895-2.245 2.595-3.945 4.84-4.84 1.27-.506 2.63-.673 4.137-.742 1.49-.07 2.97-.07 4.46-.01zm-1.161 17.52h1.833L7.045 4.126H5.078z">
-                  </path>
-                  <path
-                    d="M19.509 1.557c-1.302-.049-2.607-.061-3.912-.03-1.491.037-2.978.036-4.468.104-1.509.07-2.87.237-4.137.742-2.245.895-3.945 2.595-4.84 4.84-.507 1.27-.674 2.63-.743 4.137-.068 1.49-.069 2.97-.01 4.46.067 1.464.19 3.01.75 4.413.895 2.245 2.595 3.945 4.84 4.84 1.27.506 2.63.673 4.137.742 1.49.07 2.97.07 4.46.01 1.464-.067 3.01-.19 4.413-.75 2.245-.895 3.945-2.595 4.84-4.84.506-1.27.673-2.63.742-4.137.07-1.49.07-2.97.01-4.46-.067-1.464-.19-3.01-.75-4.413-.895-2.245-2.595-3.945-4.84-4.84-1.27-.506-2.63-.673-4.137-.742-1.49-.07-2.97-.07-4.46-.01z">
-                  </path>
-                </svg>
+
+              <!-- Instagram -->
+              <a href="#"
+                class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors">
+                <i class="fab fa-instagram text-white text-lg"></i>
               </a>
-              <a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors"
-                href="#">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path
-                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 4-8 4z">
-                  </path>
-                </svg>
+
+              <!-- YouTube -->
+              <a href="#"
+                class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors">
+                <i class="fab fa-youtube text-white text-lg"></i>
               </a>
-              <a class="h-10 w-10 flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors"
-                href="#">
-                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                  <path
-                    d="M.057 23.952c.09.028.181.042.271.042.428 0 .822-.262.966-.693l1.838-5.462c.07-.21.047-.442-.065-.632l-1.043-1.785c-.328-.56-.164-1.284.368-1.649.531-.365 1.25-.236 1.624.288l1.044 1.785c.348.595 1.127.79 1.716.43.589-.36.782-1.127.433-1.722L5.166 12.77c-.374-.524-1.093-.653-1.624-.288-.532.365-.696 1.089-.368 1.649l1.043 1.785c.112.19.135.422.065.632l-1.838 5.462c-.144.431-.05 1 .378 1.41l.235.532zM23.943.048c-.09-.028-.181-.042-.271-.042-.428 0-.822.262-.966.693l-1.838 5.462c-.07.21-.047.442.065.632l1.043 1.785c.328.56.164 1.284-.368 1.649-.531.365-1.25.236-1.624-.288l-1.044-1.785c-.348-.595-1.127-.79-1.716-.43-.589.36-.782 1.127-.433 1.722l1.044 1.785c.374.524 1.093.653 1.624.288.532-.365.696-1.089.368-1.649l-1.043-1.785c-.112-.19-.135-.422-.065-.632l1.838-5.462c.144-.431.05-1-.378-1.41l-.235-.532z">
-                  </path>
-                </svg>
+
+              <!-- TikTok -->
+              <a href="#"
+                class="h-10 w-10  text-white flex items-center justify-center rounded-full bg-white/5 hover:bg-brand-red transition-colors">
+                <i class="fab fa-tiktok text-white text-lg"></i>
               </a>
             </div>
           </div>
